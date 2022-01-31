@@ -1,0 +1,22 @@
+C:\Users\keith\Desktop\Tutorial files\Shopping_List\Shopping_List\bin\Debug\Shopping_List.exe.config
+C:\Users\keith\Desktop\Tutorial files\Shopping_List\Shopping_List\bin\Debug\Shopping_List.exe
+C:\Users\keith\Desktop\Tutorial files\Shopping_List\Shopping_List\bin\Debug\Shopping_List.pdb
+C:\Users\keith\Desktop\Tutorial files\Shopping_List\Shopping_List\obj\Debug\Shopping_List.csproj.AssemblyReference.cache
+C:\Users\keith\Desktop\Tutorial files\Shopping_List\Shopping_List\obj\Debug\Shopping_List.csproj.SuggestedBindingRedirects.cache
+C:\Users\keith\Desktop\Tutorial files\Shopping_List\Shopping_List\obj\Debug\Shopping_List.Form1.resources
+C:\Users\keith\Desktop\Tutorial files\Shopping_List\Shopping_List\obj\Debug\Shopping_List.Properties.Resources.resources
+C:\Users\keith\Desktop\Tutorial files\Shopping_List\Shopping_List\obj\Debug\Shopping_List.csproj.GenerateResource.cache
+C:\Users\keith\Desktop\Tutorial files\Shopping_List\Shopping_List\obj\Debug\Shopping_List.csproj.CoreCompileInputs.cache
+C:\Users\keith\Desktop\Tutorial files\Shopping_List\Shopping_List\obj\Debug\Shopping_List.exe
+C:\Users\keith\Desktop\Tutorial files\Shopping_List\Shopping_List\obj\Debug\Shopping_List.pdb
+C:\Users\keith\Desktop\Tutorial_files\Shopping_List\Shopping_List\bin\Debug\Shopping_List.exe.config
+C:\Users\keith\Desktop\Tutorial_files\Shopping_List\Shopping_List\bin\Debug\Shopping_List.exe
+C:\Users\keith\Desktop\Tutorial_files\Shopping_List\Shopping_List\bin\Debug\Shopping_List.pdb
+C:\Users\keith\Desktop\Tutorial_files\Shopping_List\Shopping_List\obj\Debug\Shopping_List.csproj.AssemblyReference.cache
+C:\Users\keith\Desktop\Tutorial_files\Shopping_List\Shopping_List\obj\Debug\Shopping_List.csproj.SuggestedBindingRedirects.cache
+C:\Users\keith\Desktop\Tutorial_files\Shopping_List\Shopping_List\obj\Debug\Shopping_List.Form1.resources
+C:\Users\keith\Desktop\Tutorial_files\Shopping_List\Shopping_List\obj\Debug\Shopping_List.Properties.Resources.resources
+C:\Users\keith\Desktop\Tutorial_files\Shopping_List\Shopping_List\obj\Debug\Shopping_List.csproj.GenerateResource.cache
+C:\Users\keith\Desktop\Tutorial_files\Shopping_List\Shopping_List\obj\Debug\Shopping_List.csproj.CoreCompileInputs.cache
+C:\Users\keith\Desktop\Tutorial_files\Shopping_List\Shopping_List\obj\Debug\Shopping_List.exe
+C:\Users\keith\Desktop\Tutorial_files\Shopping_List\Shopping_List\obj\Debug\Shopping_List.pdb
