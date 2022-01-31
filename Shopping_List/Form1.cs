@@ -24,13 +24,14 @@ namespace Shopping_List
         private void button1_Click(object sender, EventArgs e)
         {
             conn.Open();
-            SqlCommand cmd = new SqlCommand("insert into shopping_List values ('"+(textBox1.Text)+"', '"+int.Parse(textBox2.Text)+"', '"+int.Parse(textBox3.Text)+"', getdate())", conn);
+            SqlCommand cmd = new SqlCommand("insert into shopping_List values ('"+(textBox1.Text)+"', '"+(textBox2.Text)+"', '"+int.Parse(textBox3.Text)+ "','" + int.Parse(textBox4.Text) + "', getdate())", conn);
             cmd.ExecuteNonQuery();
             MessageBox.Show("Successfully Inserted");
             conn.Close();
             textBox1.Text = "";
             textBox2.Text = "";
             textBox3.Text = "";
+            textBox4.Text = "";
             textBox1.Focus();
             BindData();
         }
@@ -52,7 +53,7 @@ namespace Shopping_List
         private void button2_Click(object sender, EventArgs e)
         {
             conn.Open();
-            SqlCommand cmd = new SqlCommand("update shopping_List set ItemName = '" + textBox1.Text + "', ItemQuantity = '" + textBox2.Text + "', ItemPrice = '" + textBox3.Text + "' where ItemID = '" + int.Parse(textBox4.Text) + "'", conn);
+            SqlCommand cmd = new SqlCommand("update shopping_List set ItemName = '" + textBox1.Text + "', ItemQuantity = '" + textBox2.Text + "', ItemPrice = '" + textBox3.Text + "', ItemUnits = '" + textBox4.Text + "' where ItemID = '" + int.Parse(textBox5.Text) + "'", conn);
             cmd.ExecuteNonQuery();
             conn.Close();
             MessageBox.Show("Successfully Updated");
@@ -64,15 +65,16 @@ namespace Shopping_List
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (textBox4.Text != "")
+            if (textBox5.Text != "")
             {
                 if (MessageBox.Show("Are you sure you want to delete?", "Delete Record", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     conn.Open();
-                    SqlCommand cmd = new SqlCommand("Delete shopping_List where ItemID= '" + int.Parse(textBox4.Text) + "'", conn);
+                    SqlCommand cmd = new SqlCommand("Delete shopping_List where ItemID= '" + int.Parse(textBox5.Text) + "'", conn);
                     cmd.ExecuteNonQuery();
                     conn.Close();
                     MessageBox.Show("Successfully deleted!");
+                    textBox5.Text = "";
                     BindData();
                 }
 
@@ -85,7 +87,7 @@ namespace Shopping_List
 
         private void button4_Click(object sender, EventArgs e)
         {
-            SqlCommand cmd = new SqlCommand("select * from shopping_List where ItemID = '" + int.Parse(textBox4.Text) + "'", conn);
+            SqlCommand cmd = new SqlCommand("select * from shopping_List where ItemID = '" + int.Parse(textBox5.Text) + "'", conn);
             SqlDataAdapter sd = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sd.Fill(dt);
